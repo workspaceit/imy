@@ -1,0 +1,1 @@
+const String bullet = "\u2022";

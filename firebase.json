@@ -1,0 +1,45 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "project-ilu",
+          "appId": "1:808420470780:android:e0b04fbee01ea96a5b8c79",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "project-ilu",
+          "appId": "1:808420470780:ios:553004c297db53165b8c79",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "project-ilu",
+          "configurations": {
+            "android": "1:808420470780:android:e0b04fbee01ea96a5b8c79",
+            "ios": "1:808420470780:ios:553004c297db53165b8c79",
+            "web": "1:808420470780:web:8817bba3c7c660915b8c79"
+          }
+        }
+      }
+    }
+  }
+}
