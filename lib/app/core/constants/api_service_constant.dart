@@ -1,3 +1,3 @@
-const String clientId = "HLtgAu2sRwIOAYcnIXHONqNJ48FO2o6ymtpVrIY6";
-const String clientSecret = "ZIu6tPC6JbAajfliFxRvR89Rq0U76mKZV5X3AjXFJU4lZV4KMHAA9I2k8t04XPBTxuxxgMH8Ta2sWDLODiBsfu2ym5O4DqUmj2NaYetgMuVnzUscabnlrOv2nGWaAjRU";
+const String clientId = "";
+const String clientSecret = "";
 const String grantType = "password";
