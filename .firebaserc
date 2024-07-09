@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "staging": "project-ilu",
-    "default": "project-ilu"
-  },
-  "targets": {},
-  "etags": {}
-}
